@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/dilogmenu"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<ProgressBar-->
+        <!--style="?android:attr/progressBarStyleLarge"-->
+        <!--android:id="@+id/progressBar"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:progressDrawable="@drawable/circular_progress_bar"/>-->
+
+    <LinearLayout
+        android:id="@+id/container_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:layout_weight="2">
+
+            <ImageView
+                android:id="@+id/img_menu"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+
+            <TextView
+                android:id="@+id/textView_dia_menuName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/fonsizeN"
+                android:text="ปลาสลิดทอดกรอบ"
+                android:layout_marginLeft="5dp"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/img_menu" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="right"
+            android:layout_weight="2">
+
+            <TextView
+                android:id="@+id/textView_dia_menuPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/fonsizeN"
+                android:text="70 บาท"
+                android:layout_centerVertical="true" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

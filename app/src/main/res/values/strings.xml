@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ChanthaburiFood</string>
+    <string name="action_settings">ออกจากระบบ</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="google_api_key">AIzaSyDalcPt9fdsTkQGKUxaM-kp-ArMN0QXXgQ</string>
+    <string name="google_api_key_direction">AIzaSyADhgZNzP4jn99JgQax_ahRv2JsZ5ooPhM</string>
+</resources>

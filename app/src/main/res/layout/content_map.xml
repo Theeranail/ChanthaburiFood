@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.theeranaiasipong.chanthaburifood.MapActivity"
+    tools:showIn="@layout/activity_map"
+    android:orientation="vertical">
+
+    <fragment
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:id="@+id/viewmap"
+        android:layout_width="match_parent"
+        android:enabled="true"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/textShowDiatacemap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorfont"
+        android:textSize="@dimen/fonsizeN"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:gravity="right"/>
+
+</RelativeLayout>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="@color/gray"
+    tools:context="com.example.theeranaiasipong.chanthaburifood.ReviewpostActivity"
+    tools:showIn="@layout/activity_reviewpost">
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView_post"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="หัวข้อเรื่อง"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorfont"
+                android:textSize="@dimen/fonsizeM" />
+
+            <EditText
+                android:id="@+id/editReviewpostname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="start"
+                android:hint=" ชื่อเรื่องที่จะพูดถึงร้านนี้ "
+                android:inputType="text"
+                android:padding="5dp"
+                android:textColor="@color/colorhin"
+                android:textColorHint="@color/colorhin"
+                android:textSize="@dimen/fonsizeN"
+                android:background="@drawable/borderinputgray"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="รายละเอียด"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/colorfont"
+                android:textSize="@dimen/fonsizeM" />
+
+            <EditText
+                android:id="@+id/editReviewpostdetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:hint=" รายละเอียดรีวิว บรรยายถึงทีเด็ดของร้าน "
+                android:inputType="textMultiLine"
+                android:lines="5"
+                android:padding="5dp"
+                android:ellipsize="start"
+                android:paddingLeft="@dimen/paddingEditTextLeft"
+                android:textColor="@color/colorhin"
+                android:textColorHint="@color/colorhin"
+                android:textSize="@dimen/fonsizeN"
+                android:singleLine="false"
+                android:gravity="top"
+                android:background="@drawable/borderinputgray"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เมนูเเนะนำ"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/colorfont"
+                android:textSize="@dimen/fonsizeM" />
+
+            <EditText
+                android:id="@+id/editReviewpostmenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="start"
+                android:hint=" เมนูเด็ดที่อยากจะเเนะนำ "
+                android:inputType="text"
+                android:padding="5dp"
+                android:textColor="@color/colorhin"
+                android:textColorHint="@color/colorhin"
+                android:textSize="@dimen/fonsizeN"
+                android:background="@drawable/borderinputgray"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ราคา"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/colorfont"
+                android:textSize="@dimen/fonsizeM" />
+
+            <EditText
+                android:id="@+id/editReviewpostprice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="none"
+                android:hint=" ราคาอยู่ที่ประมาณเท่าไหร่ เช่น 50 - 100 บาท "
+                android:inputType="text"
+                android:padding="5dp"
+                android:textColor="@color/colorhin"
+                android:textColorHint="@color/colorhin"
+                android:textSize="@dimen/fonsizeN"
+                android:background="@drawable/borderinputgray"/>
+
+            <TextView
+                android:id="@+id/textpic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="รูปภาพ"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/colorfont"
+                android:textSize="@dimen/fonsizeM" />
+
+            <GridView
+                android:id="@+id/viewImgpost"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:columnWidth="100dp"
+                android:drawSelectorOnTop="true"
+                android:paddingTop="5dp"
+                android:gravity="center"
+                android:horizontalSpacing="1dp"
+                android:numColumns="3"
+                android:verticalSpacing="3dp"
+                android:background="@drawable/borderbgwirth"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:background="@drawable/bordergray"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/img_shoodfile"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ic_add_a_photo_black_24dp"/>
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btn_postreview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/fonsizeM"
+                android:textColor="@color/colorfont"
+                android:layout_marginTop="10dp"
+                android:text="โพสรีวิว"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

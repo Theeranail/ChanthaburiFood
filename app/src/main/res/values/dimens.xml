@@ -1,0 +1,99 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">5dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fonsizeN">14dp</dimen>
+    <dimen name="fonsizeM">16dp</dimen>
+    <dimen name="fonsizeL">18dp</dimen>
+    <dimen name="paddingEditTextLeft">18dp</dimen>
+    <dimen name="iconContextWidth">50dp</dimen>
+    <dimen name="iconContextHeight">50dp</dimen>
+    <dimen name="iconBottom">30dp</dimen>
+    <dimen name="sizeImgSwipReivew">150dp</dimen>
+    <dimen name="widtextAddressmain">200dp</dimen>
+
+    <!-- content_listview_main.xml -->
+
+    <dimen name="container_list_food_padding">16dp</dimen>
+    <dimen name="img_show_width">90dp</dimen>
+    <dimen name="img_show_height">80dp</dimen>
+    <dimen name="img_show_marginRight">16dp</dimen>
+    <dimen name="content_vodt_width">190dp</dimen>
+    <dimen name="content_vodt_height">50dp</dimen>
+    <dimen name="content_vodt_marginLeft">50dp</dimen>
+    <dimen name="content_vodt_layout_marginTop">-15dp</dimen>
+    <dimen name="content_distane_marginRight">30dp</dimen>
+    <dimen name="content_distane_marginleft">-25dp</dimen>
+    <dimen name="ontent_distane_marginTop">6dp</dimen>
+    <dimen name="ontent_distane_textSize">10dp</dimen>
+    <dimen name="icon_right_black_width">50dp</dimen>
+    <dimen name="icon_right_black_height">80dp</dimen>
+
+    <dimen name="inputSearch_height">50dp</dimen>
+
+
+    <!-- /content_listview_main.xml -->
+
+
+    <!-- content_search.xaml -->
+
+    <dimen name="btn_back_width">35dp</dimen>
+    <dimen name="btn_back_height">45dp</dimen>
+
+    <!-- /content_search.xaml -->
+
+
+    <!-- content_detail.xaml -->
+
+    <dimen name="content_head_food_padding">10dp</dimen>
+    <dimen name="imgFoog_height">200dp</dimen>
+    <dimen name="textViewnamefood_margintop">10dp</dimen>
+
+    <dimen name="container_score_paddingBottom">10dp</dimen>
+    <dimen name="TextRatingBar_marginRight">10dp</dimen>
+    <dimen name="TextRatingBar_marginTop">5dp</dimen>
+    <dimen name="RatingBar_marginleft">-50dp</dimen>
+    <dimen name="RatingBarmarginTop">-12dp</dimen>
+
+    <dimen name="TextTitleconect_marginLeft">10dp</dimen>
+
+    <dimen name="content__contect_home_padding">10dp</dimen>
+    <dimen name="textViewaddress_marginTop">10dp</dimen>
+
+    <dimen name="content__contect_Detail_padding">5dp</dimen>
+    <dimen name="content__contect_Detail2_padding">5dp</dimen>
+    <dimen name="content__contect_Detail3_padding">5dp</dimen>
+
+    <dimen name="container_detailFood_marginTop">10dp</dimen>
+    <dimen name="Texttitl_detailFood_emarginLeft">10dp</dimen>
+    <dimen name="content_Detailfood_contect_paddingLeft">10dp</dimen>
+    <dimen name="content_Detailfood_contect_paddingRight">10dp</dimen>
+
+    <dimen name="container_timeopte_marginTop">10dp</dimen>
+    <dimen name="texttitle_timeopen_marginLeft">10dp</dimen>
+    <dimen name="content_contect_Detailtime_paddingLeft">20dp</dimen>
+    <dimen name="content_contect_Detailtime_paddingRight">10dp</dimen>
+
+    <dimen name="container_priceFood_marginTop">10dp</dimen>
+    <dimen name="texttitle_priceFood_marginLeft">10dp</dimen>
+    <dimen name="content_contect_Detailprice_paddingLeft">20dp</dimen>
+    <dimen name="content_contect_Detailprice_paddingRight">10dp</dimen>
+
+    <dimen name="container_detailOther_marginTop">10dp</dimen>
+    <dimen name="textTitile_detailOther_marginLeft">10dp</dimen>
+    <dimen name="content_contect_Detailother_paddingLeft">20dp</dimen>
+    <dimen name="content_contect_Detailother_paddingRight">10dp</dimen>
+
+    <dimen name="content__detail_iconBottomVote_paddingBottom">5dp</dimen>
+    <dimen name="content__detail_iconBottomVote_paddingTop">5dp</dimen>
+    <dimen name="content__detail_iconBottomRightReview_paddingBottom">5dp</dimen>
+    <dimen name="content__detail_iconBottomRightReview_paddingTop">5dp</dimen>
+
+    <dimen name="textTitile_menu_marginLeft">10dp</dimen>
+    <dimen name="listviewMenu_height">100dp</dimen>
+
+    <dimen name="img_food_size">130dp</dimen>
+
+    <!-- /content_detail.xaml -->
+</resources>
